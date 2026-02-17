@@ -359,27 +359,27 @@ dart doc --serve
 ```txt
 set_theory/
 ├── lib/
-│   ├── set_theory.dart          # Main library export
+│   ├── set_theory.dart                  # Main library export
 │   ├── models/
-│   │   ├── custom_set.dart      # CustomSet class
-│   │   └── multiset.dart        # MultiSet class
+│   │   ├── custom_set.dart              # CustomSet class
+│   │   └── multiset.dart                # MultiSet class
 │   ├── operations/
-│   │   ├── basic_operations.dart    # Basic set operations
-│   │   ├── advanced_operations.dart # Advanced operations
-│   │   └── set_laws.dart            # Set law verification
+│   │   ├── set_operations.dart          # Basic set operations
+│   │   ├── advanced_set_operations.dart # Advanced operations
+│   │   └── set_laws.dart                # Set law verification
 │   └── utils/
-│       └── cardinality.dart     # Cardinality utilities
+│       └── cardinality.dart             # Cardinality utilities
 ├── test/
-│   └── set_theory_test.dart     # Unit tests
+│   └── set_theory_test.dart             # Unit tests
 ├── example/
-│   ├── main.dart                # Main example
-│   ├── basic_operations.dart    # Basic operations example
-│   ├── advanced_operations.dart # Advanced operations example
-│   └── real_world.dart          # Real-world examples
-├── pubspec.yaml                 # Package configuration
-├── CHANGELOG.md                 # Version history
-├── LICENSE                      # MIT License
-└── README.md                    # This file
+│   ├── main.dart                        # Main example
+│   ├── set_operations.dart              # Basic operations example
+│   ├── advanced_set_operations.dart     # Advanced operations example
+│   └── real_world.dart                  # Real-world examples
+├── pubspec.yaml                         # Package configuration
+├── CHANGELOG.md                         # Version history
+├── LICENSE                              # MIT License
+└── README.md                            # This file
 ```
 
 ## Contributing
